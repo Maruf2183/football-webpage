@@ -154,6 +154,9 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .player{
+        margin-bottom: 15px;
+    }
     .footer-image img{
         width: 200px;
         margin-bottom: 40px;
