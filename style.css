@@ -14,13 +14,13 @@ body{
 header{
     width: 100%;
     background-color: blue;
-    display: flex;
-    justify-content: center;
+    box-sizing: border-box;
+   
     
     
 }
 .header-with-image {
-    max-width: 1400px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -56,6 +56,16 @@ header{
     align-items: center;
         
 }
+
+.botton:hover.botton i{
+    transform: translate(5px);
+}
+.botton:hover{
+    box-shadow: -3px -3px 7px #ffffff73,
+                 3px 3px 5px rgba(94,104,121,0.288)
+                 
+}
+
 .botton a{
     text-decoration: none;
     color: #ddd;
