@@ -5,9 +5,9 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-
-
 /* common style end here */
+
+
 
 
 /* header style  */
@@ -20,7 +20,7 @@ header{
     
 }
 .header-with-image {
-    width: 1400px;
+    max-width: 1400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,6 +31,7 @@ header{
     flex-direction: row;
 }
 .header-tittle{
+    margin-bottom: 40px;
     
 }
 .tittle{
@@ -46,13 +47,12 @@ header{
     display: flex;
     justify-content: space-evenly;
     width: 140px;
-    background-color: rgb(4, 29, 75);
+    background-color: #002b36;
     padding: 7px 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgb(53 47 47);
     flex-direction: row;
     flex-wrap: nowrap;
-    
     align-items: center;
         
 }
@@ -60,25 +60,22 @@ header{
     text-decoration: none;
     color: #ddd;
     font-size: 16px;
+    
 }
 .botton i{
     color: #dddd;
     margin-left: 5px;
+
 }
-
-
-
 .header-image img{
     width: 550px;
+
+
 }
-
-
-
 /* header style end here */
 
 
 /* main section players style */
-
 main{
     display: flex;
     align-items: center;
@@ -107,3 +104,65 @@ main{
 .player p{
     font-size: 16px;
 }
+/* main section end here */
+
+
+
+/* footer start here */
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-image img{
+    width:480px;
+}
+.icon{
+    background-color: #decdcd59;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.footer-text p{
+    font-size: 15px;
+
+}
+/* footer end here */
+
+
+
+
+/* responsive for mobile phone */
+
+
+@media (max-width:500px) {
+    .header-with-image{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    }
+    .header-image img{
+        width:300px;
+    }
+    .players{
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    .footer-image img{
+        width: 200px;
+    }
+
+
+    /* responsive for mobile phone end here */
+    
+    
+
+
+    
